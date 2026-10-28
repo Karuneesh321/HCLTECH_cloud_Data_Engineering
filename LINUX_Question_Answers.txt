@@ -29,4 +29,6 @@ E : find /path/to/application/directory -type f -size +100M
 
 Question 6: Bash Scripting (5 Marks) 
 
-A : 
+ nano backup_check.sh(write the script)   ---> chmod +x backup_check.sh --> ./backup_check.sh
+
+
