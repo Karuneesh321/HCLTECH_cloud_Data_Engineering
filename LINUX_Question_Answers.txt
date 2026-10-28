@@ -1,0 +1,32 @@
+LINUX :
+Question 4: Log Analysis (5 Marks)
+
+A :  grep 'ERROR' /var/log/application.log
+B :  grep 'ERROR' /var/log/application.log | tail -n 20
+C  : grep -c 'ERROR' /var/log/application.log
+D  : grep 'ERROR' /var/log/application.log ^12.08.2026^ > var/log/files.log
+E  : grep -c 'ERROR' /var/log/application.log 
+
+
+
+Question 5: Permissions and System Troubleshooting (5 Marks) 
+
+
+A : sudo groupadd finance
+    sudo touch /app/reports/financial_report.txt
+
+B : sudo chown :finance financial_report.txt
+    chmod 640 financial_report.txt
+
+C : top -o %cpu 
+
+D : free -h
+    df -h
+
+E : find /path/to/application/directory -type f -size +100M
+
+
+
+Question 6: Bash Scripting (5 Marks) 
+
+A : 
